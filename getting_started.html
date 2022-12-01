@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <html lang="en-US">
+        <head>
+            <meta charset="utf-8">
+            <title>Cameron's Bike Rental Page</title>
+            <link rel="stylesheet" href="styles/getting_started.css">
+            <link rel="stylesheet" href="styles/slicknav.css"><!--this calls both the main css as well as the slicknav css-->
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            <script src="js/jquery.slicknav.min.js"></script>
+            <script type="text/javascript">
+                $(document) .ready(function(){
+                    $('#nav_menu').slicknav ({prependTo: "#mobile_menu"}); 
+                });
+            </script>
+            <nav id="mobile_menu"></nav>
+            <nav id="nav_menu">
+                <ul> <!--this is the list that connects all the webpages together-->
+                    
+                    <li> <a href="index.html"> Home Page </a></li>
+                    <li> <a href="history.html"> History </a></li>
+                    <li> <a href="upcoming.html"> Upcoming Games </a></li>
+                    <li> <a href="getting_started.html"> Where to Start </a></li>
+                    <li> <a href="contact.html"> Contact </a></li>
+                </ul>
+            </nav>         
+        </head>

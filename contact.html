@@ -1,0 +1,49 @@
+<!-- cameron eagelston Southern Il University devloped 9-14, tested 10-17-->
+<header>contact
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document) .ready(function(){
+            $('#nav_menu').slicknav ({prependTo: "#mobile_menu"}); 
+        });
+    </script>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul> <!--this is the list that connects all the webpages together-->
+            <li> <a href="index.html"> Home Page </a></li>
+            <li> <a href="history.html"> History </a></li>
+            <li> <a href="upcoming.html"> Upcoming Games </a></li>
+            <li> <a href="getting_started.html"> Where to Start </a></li>
+            <li> <a href="contact.html"> Contact </a></li>
+        </ul>
+        </ul>
+    </nav>
+    <img src="images/allbikes-1539286251.jpg" onmouseover="this.src='images/index-bike-2-1659014516.jpg'" onmouseout="this.src='images/allbikes-1539286251.jpg'" />
+</header>
+<body>
+    <p> Our office is located at 123 Wind Waker Drive </p>
+    <p> If you wish to contact us our phone number is 123-4567-890 and our email is weloveZelda@GeoCities.com</p>
+</body>
+<body>
+    <form name="myform" action="survey_data.html" method="get">
+	
+        <h2>Contact information</h2>
+        <label for="email">Email address:</label>
+        <input type="email" name="email" id="email" autofocus required ><br>
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname" required><br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" required><br>
+        <label for="comments">Comments:</label>
+        <input type="text" name="comments" id="comments" required><br>
+    
+        
+    
+        <h2>Thank you for taking our survey!</h2>
+        <input type="submit" name="button" id="button" value="Submit">
+        <input type="reset" name="reset" id="reset"> 
+    
+    </form>
+</body>
