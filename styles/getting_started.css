@@ -1,0 +1,103 @@
+/* this is the comments for my css page
+Cameron Eagelston SIU  created 9-15-2022, edited 11-30-2022  */
+
+/*this applies width and a margin to the body of the html file.*/
+@media only screen and (max-width: 2024px) { 
+    #mobile_menu { display: none; }    
+}
+/* tablet portrait layout (768px to 959px) */
+@media only screen and (max-width: 959px) { 
+    #mobile_menu { display: none; } 
+}
+/* mobile landscape layout (480px to 767px) */ 
+
+@media only screen and (max-width: 767px) { 
+    #mobile_menu { display: block; }
+    #nav_menu { display: none; }
+    header h2 { font-size: 1.375em; }       
+    header h3 { font-size: .8125em; }   
+    p { font-size: .875em; }             
+    article h1, main h2, aside h2
+        { font-size: 1em; }             
+    aside li { font-size: .875em; }     
+    
+}
+/* mobile portrait layout (479px or less) */ 
+
+@media only screen and (max-width: 479px) { 
+    #mobile_menu { display: block; }
+    #nav_menu { display: none; }
+    header h2 { font-size: 1.375em; }   
+    header h3 { font-size: .8125em; }   
+    p { font-size: .875em; }            
+    article h1, main h2, aside h2 
+        { font-size: 1em; }             
+    aside li { font-size: .875em; }     
+    th, td {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+html{background-color: lightcoral;}/*this applies a background color*/
+
+body {
+    width: 90%;
+    background-color: lightcoral;
+    margin: 15px auto;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger; }/*this influences the body of the rentals page?*/
+
+h3 { padding: 1em; }/*should be influencing the h3 of the rentals page*/
+
+
+main {
+    height: 350px;
+    width: 49.6%;
+    float: left;
+    border: 1px solid black;
+    
+    
+}/*main of the rentals page*/
+
+aside {
+    height: 350px;
+    width: 49.6%;
+    float: right;
+    border: 1px solid black;
+}/*aside of the rentals page*/
+footer {
+    clear:both;
+    border: 1px solid black;
+    
+}/*footer of the rentals page*/
+
+header {width: 90%;
+    margin: 15px;
+    border: 3px solid black;
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+figure{
+    border: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+textarea {
+    height: 5em;
+    width: 25 em;
+    font-family: Arial, Helvetica, sans-serif;
+}
